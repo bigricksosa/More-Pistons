@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "morepistons",
+	"version": "${version}",
+	"name": "More Pistons",
+	"description": "Based on the original mod by MontyPylon",
+	"authors": [
+		"RickSosa"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mods/more-pistons",
+		"sources": "https://github.com/bigricksosa/More-Pistons"
+	},
+	"license": "MIT",
+	"icon": "assets/morepistons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ricksosa.morepistons.MorePistons"
+		],
+		"client": [
+			"net.ricksosa.morepistons.MorePistonsClient"
+		],
+		"fabric-datagen": [
+			"net.ricksosa.morepistons.MorePistonsDataGenerator"
+		]
+	},
+	"mixins": [
+		"morepistons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
