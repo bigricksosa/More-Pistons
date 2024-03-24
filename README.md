@@ -20,7 +20,7 @@ This includes but is not limited to:
 - Players
 - Animals
 - Mobs
-- Villagers
+- Anvils
 - Sand
 - Ignited TNT
 
